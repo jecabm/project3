@@ -1,0 +1,277 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding-top: 60px;
+
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+}
+
+.social {
+  background-color: #ead200;
+  height: 38px;
+  width: 100%;
+}
+
+.social-content {
+  float: right;
+  padding: 10px 40px;
+}
+
+.social-content a {
+  padding: 10px;
+}
+
+.logo {
+  background-color: #ffe500;
+  height: 235px;
+  width: 100%;
+}
+
+.logo a {
+  display: flex;
+  justify-content: center;
+  margin-left: 161px;
+}
+
+.logo a img {
+  width: 427px;
+  margin-top: -40px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu {
+  background-color: hsl(0, 0%, 0%, 0.9);
+  height: 58px;
+  z-index: 999;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li {
+  padding: 19px 62px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-color: currentcolor;
+  text-decoration-thickness: auto;
+  list-style: none;
+  border-right: 0.1px solid rgb(60, 60, 60);
+  font-size: 12px;
+}
+
+.hero {
+  height: 610px;
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+  height: 610px;
+}
+
+.text-hero {
+  position: absolute;
+  float: left;
+  width: 48%;
+  height: 500px;
+  padding-top: 116px;
+}
+
+.text-hero h1 {
+  padding: 36px 72px;
+  background-color: hsl(0, 0%, 0%, 0.9);
+  margin: 30px 150px;
+  color: white;
+  font-size: 49px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+}
+
+.text-hero a {
+  background-color: #ffe500;
+  padding: 13px 70px;
+  margin: auto 150px;
+  font-family: "Roboto", sans-serif;
+  font-size: 31px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  border-radius: 7px;
+}
+
+.slides {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.slide-left {
+  width: 50%;
+  background-color: #272727;
+  height: 153px;
+  margin: auto;
+}
+
+.slide-right {
+  width: 50%;
+  background-color: #000000;
+  height: 153px;
+}
+
+.slides a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 37px;
+  text-decoration: none;
+  top: 50%;
+  left: 50%;
+}
+
+/*challenges */
+
+.challenges {
+  text-align: center;
+  width: 58%;
+  display: block;
+  margin: auto ;
+}
+
+.challenges h2 {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+
+.item1 { 
+  
+  grid-area: challenge;
+  background-image: url(images/challenge.png);
+  background-repeat: no-repeat;
+  width: 392px;
+  
+
+
+}
+
+.bottom{
+
+  bottom: 0%;
+  width: 300px;
+  height: 324px;
+  padding-top: 501px;
+}
+
+.bottom-short{
+
+  width: 343px;
+  padding-top: 144px;
+
+}
+
+.item1 a {
+
+  background-color: #000000;
+  padding: 13px 19px;
+  margin: -27px 57px;
+  font-family: "Roboto", sans-serif;
+  font-size: 31px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  height: 323px;
+
+
+
+}
+
+
+.item2 { 
+  
+  grid-area: mental;
+  background-image: url(images/mental.png);
+  background-repeat: no-repeat;
+  width: 356px;
+  
+
+
+}
+.item3 { 
+  
+  grid-area: homeless;
+  background-image: url(images/homeless.png);
+  background-repeat: no-repeat;
+  width: 356px;
+  
+
+}
+.item4 { 
+  
+  grid-area: cancer; 
+  background-image: url(images/cancer.png);
+  background-repeat: no-repeat;
+  width: 356px;
+  
+
+}
+.item5 { 
+  
+  grid-area: follow;
+  background-color: black;
+  
+  
+  
+
+
+}
+
+
+.chall-content{
+
+  display: grid;
+  grid-template-areas:
+    'challenge mental homeless  '
+    'challenge cancer follow';
+    background-color: brown;
+    height: 594px;
+    
+}
+
+.chall-content > div {
+ 
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+footer{
+
+  background-color: black;
+  height: 500px;
+  width: 100%;
+  margin-top: 190px;
+}

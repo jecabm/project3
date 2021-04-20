@@ -10,11 +10,15 @@ h2 {
   font-family: "Raleway", sans-serif;
   text-align: center;
   padding-top: 60px;
-
 }
 
 nav {
   width: 100%;
+  margin: auto;
+}
+
+.container {
+  width: 60%;
   margin: auto;
 }
 
@@ -115,11 +119,17 @@ nav {
   padding: 13px 70px;
   margin: auto 150px;
   font-family: "Roboto", sans-serif;
-  font-size: 31px;
+  font-size: 25px;
   font-weight: bold;
   text-decoration: none;
   color: black;
   border-radius: 7px;
+}
+
+.text-hero a:hover {
+  background-color: #444444;
+  color: #ffffff;
+  transition-duration: 0.4s;
 }
 
 .slides {
@@ -130,24 +140,50 @@ nav {
 
 .slide-left {
   width: 50%;
-  background-color: #272727;
-  height: 153px;
+  background-color: #474747;
+  height: 290px;
   margin: auto;
 }
 
 .slide-right {
   width: 50%;
-  background-color: #000000;
-  height: 153px;
+  background-color: #868686;
+  height: 290px;
+}
+
+.slides h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  padding-left: 179px;
+}
+
+.slides p {
+  color: white;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  padding: 32px 179px;
+  margin-right: 92px;
 }
 
 .slides a {
-  color: white;
-  font-family: "Roboto", sans-serif;
-  font-size: 37px;
+  margin: 183px;
+  padding: 17px 35px;
+  background-color: #000000;
+  color: #ffe500;
   text-decoration: none;
-  top: 50%;
-  left: 50%;
+  font-family: "Raleway", sans-serif;
+}
+
+.slides a:hover {
+  margin: 183px;
+  padding: 17px 35px;
+  background-color: #ffe500;
+  color: #000000;
+  transition-duration: 0.4s;
 }
 
 /*challenges */
@@ -156,7 +192,7 @@ nav {
   text-align: center;
   width: 58%;
   display: block;
-  margin: auto ;
+  margin: auto;
 }
 
 .challenges h2 {
@@ -164,35 +200,28 @@ nav {
   padding-bottom: 60px;
 }
 
-
-.item1 { 
-  
+.item1 {
   grid-area: challenge;
   background-image: url(images/challenge.png);
   background-repeat: no-repeat;
   width: 392px;
-  
-
-
 }
 
-.bottom{
-
+.bottom {
   bottom: 0%;
   width: 300px;
   height: 324px;
   padding-top: 501px;
 }
 
-.bottom-short{
-
+.bottom-short {
   width: 343px;
   padding-top: 144px;
-
 }
 
-.item1 a {
 
+
+.item1 a {
   background-color: #000000;
   padding: 13px 19px;
   margin: -27px 57px;
@@ -203,73 +232,314 @@ nav {
   color: rgb(255, 255, 255);
   border-radius: 6px;
   height: 323px;
-
-
-
 }
 
-
-.item2 { 
-  
+.item2 {
   grid-area: mental;
   background-image: url(images/mental.png);
   background-repeat: no-repeat;
   width: 356px;
-  
-
-
 }
-.item3 { 
-  
+.item3 {
   grid-area: homeless;
   background-image: url(images/homeless.png);
   background-repeat: no-repeat;
   width: 356px;
-  
-
 }
-.item4 { 
-  
-  grid-area: cancer; 
+.item4 {
+  grid-area: cancer;
   background-image: url(images/cancer.png);
   background-repeat: no-repeat;
   width: 356px;
-  
-
 }
-.item5 { 
-  
+.item5 {
   grid-area: follow;
   background-color: black;
-  
-  
-  
-
-
 }
 
-
-.chall-content{
-
+.chall-content {
   display: grid;
   grid-template-areas:
-    'challenge mental homeless  '
-    'challenge cancer follow';
-    background-color: brown;
-    height: 594px;
-    
+    "challenge mental homeless  "
+    "challenge cancer follow";
+  background-color: brown;
+  height: 594px;
 }
 
 .chall-content > div {
- 
   text-align: center;
   font-family: "Roboto", sans-serif;
   color: rgb(255, 255, 255);
   font-size: 30px;
 }
 
-footer{
+/*Ethical stores*/
 
+
+.bottom-ethical{
+  width: 76%;
+  height: 324px;
+  
+  margin-left: 64px;
+  margin: 255px 165px;
+
+
+}
+
+.bottom-ethical h2{
+  color: white;
+  font-size: 56px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+
+.bottom-ethical h3{
+  color: white;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+.bottom-ethical a {
+  margin: 24px auto;
+  padding: 12px 30px;
+  background-color: #000000;
+  color: #ffe500;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  float: left;
+}
+
+.bottom-ethical a:hover {
+  margin: 24px auto;
+  padding: 12px 30px;
+  background-color: #ffe500;
+  color: #000000;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  float: left;
+  transition-duration: 0.4s;
+}
+
+
+.ethical {
+  display: grid;
+  grid-template-areas:
+    "ethically clothes food"
+    "ethically grown shop";
+  background-color: brown;
+  height: 594px;
+  width: 100%;
+  margin-top: 175px;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 42% 31% 27%;
+}
+
+.ethical > div {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+.erthical1 a {
+  background-color: #000000;
+  padding: 13px 19px;
+  margin: -27px 57px;
+  font-family: "Roboto", sans-serif;
+  font-size: 31px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  height: 323px;
+}
+
+.ethical1 {
+  grid-area: ethically;
+  background-image: url(images/ethically.png);
+  background-repeat: no-repeat;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.ethical2 a{
+  height: 100vh;
+}
+
+.ethical2:hover .overlay {
+  opacity: 7;
+}
+
+.ethical3:hover .overlay {
+  opacity: 7;
+}
+
+.ethical4:hover .overlay {
+  opacity: 7;
+}
+
+.text {
+  color: white;
+  font-size: 26px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.ethical2 {
+  grid-area: clothes;
+  background-image: url(images/clothes.png);
+  background-repeat: no-repeat;
+  position: relative;
+  
+
+ 
+}
+.ethical3 {
+  grid-area: food;
+  background-image: url(images/food.png);
+  background-repeat: no-repeat;
+  position: relative;
+  
+}
+.ethical4 {
+  grid-area: grown;
+  background-image: url(images/grown.png);
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+.ethical5 {
+  grid-area: shop;
+  background-image: url(images/shop.png);
+  background-repeat: no-repeat;
+
+  background-color: #000000;
+}
+
+/*Ethical end*/
+
+/*causes*/
+
+.causes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 75px;
+  width: 80%;
+  margin: 125px auto;
+  height: 462px;
+}
+
+.cause-left {
+  width: 43%;
+  height: 230px;
+  text-align: left;
+  padding-top: 23px;
+}
+
+.cause-left h2 {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  padding-top: 43px;
+  color: #333333;
+}
+
+.cause-left p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  color: #363636;
+  margin-bottom: 12px;
+}
+
+.cause-left a {
+  font-size: 16px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  color: #3384FF;
+  text-align: left;
+  text-decoration: none;
+}
+
+.cause-left a:hover {
+  color: #0147af;
+}
+
+.cause-right {
+  width: 41%;
+  height: 334px;
+}
+
+.sub-right {
+  display: flex;
+  padding-top: 23px;
+}
+
+.sub-right img {
+  padding-right: 30px;
+}
+
+
+.sub-right p{
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+  color: #363636;
+  margin-bottom: 12px;
+}
+
+.sub-right h3{
+  font-size: 24px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  color: #333333;
+}
+
+.sub-right a{
+
+  font-size: 16px;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  color: #3384FF;
+  text-align: left;
+  text-decoration: none;
+}
+
+.sub-right a:hover {
+  color: #0147af;
+}
+
+hr {
+  margin-top: 30px;
+  color: #eee;
+}
+footer {
   background-color: black;
   height: 500px;
   width: 100%;

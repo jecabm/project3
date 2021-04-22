@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: "Raleway", sans-serif;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 33px;
+  }
+  p {
+      padding: 33px;
+      text-align: left;
+    
+  }
+  .mentalHealth p{
+      text-align: left;
+  }
+  nav {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .container {
+    width: 60%;
+    margin: auto;
+  }
+  
+  .social {
+    background-color: #ead200;
+    height: 38px;
+    width: 100%;
+  }
+  
+  .social-content {
+    float: right;
+    padding: 10px 40px;
+  }
+  
+  .social-content a {
+    padding: 10px;
+  }
+  
+  .logo {
+    background-color: #ffe500;
+    height: 235px;
+    width: 100%;
+  }
+  
+  .logo a {
+    display: flex;
+    justify-content: center;
+    margin-left: 161px;
+  }
+  
+  .logo a img {
+    width: 427px;
+    margin-top: -40px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .menu {
+    background-color: hsl(0, 0%, 0%, 0.9);
+    height: 58px;
+    z-index: 999;
+    width: 100%;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu li {
+    padding: 19px 62px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-color: currentcolor;
+    text-decoration-thickness: auto;
+    list-style: none;
+    border-right: 0.1px solid rgb(60, 60, 60);
+    font-size: 12px;
+  }
+  
+  .hero {
+    height: 610px;
+    width: 100%;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: 610px;
+  }
+  
+  .text-hero {
+    position: absolute;
+    float: left;
+    width: 50%;
+    height: 500px;
+    padding-top: 300px;
+  }
+  
+  .text-hero h1 {
+    padding: 36px 72px;
+    background-color: hsl(0, 0%, 0%, 0.9);
+    margin: 30px 150px;
+    color: white;
+    font-size: 49px;
+    font-weight: 800;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .text-hero p {
+    background-color: #ffe500;
+    padding: 2px 2px;
+    margin: 30px 150px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;
+  }
+  .breadcrumb li{
+      color: black;
+  }
+  .breadcrumb {
+    background-color: white;
+  }
+  
+  .text-hero a:hover {
+    background-color: #444444;
+    color: #ffffff;
+    transition-duration: 0.4s;
+  }
+  
+  /*content cards*/
+  .card-deck {
+      padding: 33px;
+      display: flex;
+  }  
+  .card {
+      border-radius: 8px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) ;
+      margin-top: -40px;
+  }
+  .lifeLine {
+      
+
+  }
+  
+  
+  
+  footer {
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    margin-top: 190px;
+  }
+  

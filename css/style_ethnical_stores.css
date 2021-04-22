@@ -47,19 +47,19 @@ p {
 }
 
 /* Primary navigation */
-.menuMin {
+.menun {
     background-color: hsl(0, 0%, 0%, 0.9);
     height: 58px;
     z-index: 999;
 }
   
-.menuMin ul {
+.menu ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
   
-.menuMin li {
+.menu li {
     padding: 0px 50px;
     color: white;
     font-family: "Roboto", sans-serif;

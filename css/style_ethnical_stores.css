@@ -38,8 +38,8 @@ p {
     text-align: left;
 }
 
-/* navigation bar*/ 
-/* sticky navigation bar*/ 
+/* Navigation Bar*/ 
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
     top: 0;

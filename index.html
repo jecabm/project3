@@ -11,6 +11,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/carousel.css">
     
@@ -19,7 +20,7 @@
 <body>
 
     <nav>
-<!-- Social navigation bar -->
+
         <div class="social">
 
             <div class="social-content">
@@ -40,18 +41,49 @@
 
     <div id="menu" class="menu">
 
-            <ul>
-                <a href="#"><li>HOME</li></a>
-                <a href="#"><li>CAUSES</li></a>
-                <a href="#"><li>NEWS</li></a>
-                <a href="#"><li>CHALLENGES</li></a>
-                <a href="#"><li>ABOUT US</li></a>
-                <a class="active"  href="#"><li>SHOP</li></a>
-                <a href="#"><li><img src="images/search.png"></li></a>
-            </ul>
-
+        <div class="navbar">
+                <a href="#home">HOME</a>
+                <div class="dropdown">
+                <button class="dropbtn">CAUSES
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Mental Health Causes</a>
+                    <a href="#">Social & Political Causes</a>
+                    <a href="#">Environmental Causes</a>
+                </div>
+                </div> 
+                <a href="#home">NEWS</a>
+                <div class="dropdown">
+                    <button class="dropbtn">CHALLENGES
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Runnig</a>
+                        <a href="#">Funding</a>
+                        <a href="#">Social Challenges</a>
+                    </div>
+                    </div> 
+                <a href="#home">ABOUT US</a>
+                <div class="dropdown yellow">
+                    <button class="dropbtn yellow "> <h4>ETHICAL STORES <i class="fa fa-caret-down"></i></h4>
+                        
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Food</a>
+                        <a href="#">Sustainable Home Living</a>
+                        <a href="#">Ethical Clothing brands</a>
+                        <a href="#">Cruelty-Free Makeup</a>
+                        <a href="#">Recycle</a>
+                    </div>
+                    </div> 
+                <a href="#news"><img src="images/search.png"></a>
+        </div>       
 
     </div>
+
+
+  
 
 
 
@@ -63,7 +95,7 @@
 
         <div class="text-hero">
             
-            <h1>Simply dummy text of the printing</h1>
+            <h1>Be Apart of Change,Act Now!</h1>
             <a href="#">Subscribe</a>
         
         </div>
@@ -77,80 +109,261 @@
             
 
                 <div class="slide-left"> 
+
+
+                    <div class="sub">
+                        <div><img src="images/metoo.png"></div>
+                        <div class="sub-t"> 
+                            <h3>#MeToo</h3>
+                            <p>The ‘me too.’ Movement believes in the radical possibilities of a movement against sexual violence, led by survivors of sexual violence.</p>
+                            <a href="#">Read more</a>
+                            
+                        </div>
+                        
+
+                    </div>
                     
-                <h2>#MeToo</h2>
-                <p>The ‘me too.’ Movement believes in the radical possibilities of a movement against sexual violence, led by survivors of sexual violence.</p>
-                <a href="#">Read more</a>
+               
             
                 </div>
 
                 <div class="slide-right">
 
-                <h2>Meals on Wheels</h2>
-                <p>Our trusted friendly staff and volunteers monitor the health and wellbeing of those they service and provide peace of mind for family members.</p>
-                <a href="#">Read more</a>
+                    <div class="sub">
+                        <div><img src="images/recycle.png"></div>
+                        <div class="sub-t"> 
+                            <h3>Recycing locations</h3>
+                            <p>Not sure where to take the plastics that can’t go into your recycling bin? <br><br>See here for recycling locations.</p>
+                            <a href="#">Read more</a>
+                            
+                        </div>
+                        
+
+                    </div>
 
                 </div>
 
            
          </div>
 
+
+         <h2> Causes </h2>
+         <div class="causes">
+   
+          
+   
+               <div class="cause-left">
+   
+                   <div class="container">
+   
+                       <img src="images/indigenous.png">
+                       <h2>Indigenous land rights movement</h2>
+                       <p>Homelessness Australia (HA) is the national peak body for homelessness in Australia. We provide systemic advocacy for the homelessness sector.</p>
+                       <a href="#">Read more</a>
+   
+                   </div>
+   
+               </div>
+   
+               <div class="cause-right">
+   
+                
+                       <div class="sub-right">
+                           <div><img src="images/climate.png"></div>
+                           <div class="sub-text"> 
+                               <h3>Climate Change</h3>
+                               <p>The Campaign against Climate Change (CCC) exists to push for the urgent and radical action we need to prevent the catastrophic destabilisation of global climate.</p>
+                               <a href="#">Read more</a>
+                               
+                           </div>
+                           
+   
+                       </div>
+                       <hr>
+   
+                       <div class="sub-right">
+                           <div><img src="images/homelessness.png"></div>
+                           <div class="sub-text"> 
+                               <h3>Homelessness Australia</h3>
+                               <p>Homelessness Australia (HA) is the national peak body for homelessness in Australia. We provide systemic advocacy for the homelessness sector.</p>
+                               <a href="#">Read more</a>
+                               
+                           </div>
+                           
+   
+                       </div>
+                       <hr>
+   
+                       <div class="sub-right">
+                           <div><img src="images/amnesty.png"></div>
+                           <div class="sub-text"> 
+                               <h3>Amnesty Internationale</h3>
+                               <p>Lifeline is Australia’s leading suicide prevention service. We are a national charity providing all Australians experiencing a personal crisis with access to 24-hour crisis support. </p>
+                               <a href="#">Read more</a>
+                               
+                           </div>
+                           
+   
+                       </div>
+                      
+                   
+                   
+               </div>
+   
+   
+           
+   
+         </div>
+
+
+         <div class="challenges">
+
+            <h2> Challenges </h2>
+    
+            <div class="chall-content">
+    
+                
+                    <div class="item1">
+                     
+                      <div class="bottom"><a href="#"> All challenge </a></div>  
+                                         
+                    
+                    </div>
+    
+    
+                  
+    
+                    <a href=""> <div class="item2">
+                
+                        <div class="bottom-short">  </div>
+                        <div class="overlay">
+                        
+                         <div class="text">The Ocean cleanUp</div>
+                        
+                    
+                    </div> 
+    
+                     </div></a>
+    
+                     <a href=""> <div class="item3">
+                
+                        <div class="bottom-short">  </div>
+                        <div class="overlay">
+                        
+                         <div class="text">Run for Charity </div>
+                        
+                    
+                    </div> 
+    
+                     </div></a>
+    
+                     <a href=""> <div class="item4">
+                
+                        <div class="bottom-short">  </div>
+                        <div class="overlay">
+                        
+                         <div class="text">Cancer Council Run </div>
+                        
+                    
+                    </div> 
+    
+                     </div></a>
+    
+                   
+                    
+                    <div class="item5">
+                        <div class="bottom-short"> <h2>Follow us</h2>
+                            
+                            <div class="social-content-w">
+    
+                                <a href="#"><img src="images/facebook_w.png"></a>
+                                <a href="#"><img src="images/instagram_w.png"></a>
+                                <a href="#"><img src="images/twitter_w.png"></a>
+                
+                            </div></div>
+                       
+            
+                    </div>
+                
+            </div>
+    
+          </div>
+
     <div class="wrapper">
         <div class="carousel owl-carousel">
-          <div class="card card-1">A</div>
-          <div class="card card-2">B</div>
-          <div class="card card-3">C</div>
-          <div class="card card-4">D</div>
-          <div class="card card-5">E</div>
+          <div class="card card-1">
+
+            <div class="card-container">
+
+                <img src="images/black.png">
+                <h2>Indigenous land rights movement</h2>
+                <p>Homelessness Australia (HA) is the national peak body for homelessness in Australia. We provide systemic advocacy for the homelessness sector.</p>
+                <a href="#">Read more</a>
+
+            </div>
+
+          </div>
+
+          
+          <div class="card card-2">
+
+            <div class="card-container">
+
+                <img src="images/gas.png">
+                <h2>Atmospheric Methane Levels See ‘Record’ Surge</h2>
+                <p>A troubling reminder that our horror at the idea of sex between adults and minors is relatively recent’</p>
+                <a href="#">Read more</a>
+
+            </div>
+
+
+          </div>
+          <div class="card card-3">
+
+            <div class="card-container">
+
+                <img src="images/emotional.png">
+                <h2>The revolution in mental health care</h2>
+                <p>Un-plastic your grocery shop. No more plastic bags. No more veggies wrappted in plastic. Let our range of reusable bags </p>
+                <a href="#">Read more</a>
+
+            </div>
+
+          </div>
+          <div class="card card-4">
+              
+            <div class="card-container">
+
+                <img src="images/plastic.png">
+                <h2>Has anything changed since #MeToo</h2>
+                <p>Un-plastic your grocery shop. No more plastic bags. No more veggies wrappted in plastic. Let our range of reusable bags  </p>
+                <a href="#">Read more</a>
+
+            </div>
+
+          </div>
+          <div class="card card-5">
+
+            <div class="card-container">
+
+                <img src="images/change.png">
+                <h2>5 Facts About Climate Migrants</h2>
+                <p>Un-plastic your grocery shop. No more plastic bags. No more veggies wrappted in plastic </p>
+                <a href="#">Read more</a>
+
+            </div>
+
+          </div>
         </div>
       </div>
 
 
 
-      <div class="challenges">
-
-        <h2> Challenges </h2>
-
-        <div class="chall-content">
-
-            
-                <div class="item1">
-                 
-                  <div class="bottom"><a href="#"> All challenge > </a></div>  
-                                     
-                
-                </div>
+    
 
 
-                <div class="item2">
-                    
-                    <div class="bottom-short"> Mental Health </div>
-                
-                </div>
-                <div class="item3">
-                    
-                    <div class="bottom-short"> Homeless </div>
-                
-                
-                </div>  
-                <div class="item4">
-                    <div class="bottom-short"> Breast Cancer </div>
-                </div>
-                <div class="item5">
-                    <div class="bottom-short"> Follow us </div>
-                    <div class="social-content">
 
-                        <a href="#"><img src="images/facebook.png"></a>
-                        <a href="#"><img src="images/instagram.png"></a>
-                        <a href="#"><img src="images/twitter.png"></a>
-        
-                    </div>
-        
-                </div>
-            
-        </div>
-
-      </div>
+  
 
 
       <div class="ethical">
@@ -186,106 +399,103 @@
             
             <div class="bottom-short">  </div>
             <div class="overlay">
-                <div class="text">Homeless</div>
+                <div class="text">Ceres Fair Food</div>
                  </div></a>
         
         
         </div>  
 
-        <div class="ethical4">
+        <a href=""> <div class="ethical4">
             <div class="bottom-short">  </div>
             <div class="overlay">
-                <div class="text">Breast Cancer</div>
-                 </div>
+                <div class="text">Grown and Gathered </div>
+                 </div></a>
         
         </div>
 
 
-        <div class="ethical5">
-            <div class="bottom-short"> Follow us </div>
-            <div class="social-content">
+        <a href="">    <div class="ethical5">
+            <div class="bottom-short">  </div>
 
-                <a href="#"><img src="images/facebook.png"></a>
-                <a href="#"><img src="images/instagram.png"></a>
-                <a href="#"><img src="images/twitter.png"></a>
-
-            </div>
+            <div class="overlay">
+                <div class="text">Seeds & Sprout </div>
+                 </div></a>
+            
 
         </div>
     
       </div>
 
-      <h2> Causes </h2>
-      <div class="causes">
 
-       
+    
 
-            <div class="cause-left">
-
-                <div class="container">
-
-                    <img src="images/indigenous.png">
-                    <h2>Indigenous land rights movement</h2>
-                    <p>Homelessness Australia (HA) is the national peak body for homelessness in Australia. We provide systemic advocacy for the homelessness sector.</p>
-                    <a href="#">Read more</a>
-
-                </div>
-
-            </div>
-
-            <div class="cause-right">
-
-             
-                    <div class="sub-right">
-                        <div><img src="images/climate.png"></div>
-                        <div class="sub-text"> 
-                            <h3>Climate Change</h3>
-                            <p>The Campaign against Climate Change (CCC) exists to push for the urgent and radical action we need to prevent the catastrophic destabilisation of global climate.</p>
-                            <a href="#">Read more</a>
-                            
-                        </div>
-                        
-
-                    </div>
-                    <hr>
-
-                    <div class="sub-right">
-                        <div><img src="images/homelessness.png"></div>
-                        <div class="sub-text"> 
-                            <h3>Homelessness Australia</h3>
-                            <p>Homelessness Australia (HA) is the national peak body for homelessness in Australia. We provide systemic advocacy for the homelessness sector.</p>
-                            <a href="#">Read more</a>
-                            
-                        </div>
-                        
-
-                    </div>
-                    <hr>
-
-                    <div class="sub-right">
-                        <div><img src="images/amnesty.png"></div>
-                        <div class="sub-text"> 
-                            <h3>Amnesty Internationale</h3>
-                            <p>Lifeline is Australia’s leading suicide prevention service. We are a national charity providing all Australians experiencing a personal crisis with access to 24-hour crisis support. </p>
-                            <a href="#">Read more</a>
-                            
-                        </div>
-                        
-
-                    </div>
-                   
-                
-                
-            </div>
-
-
-        
-
-      </div>
+     
 
       <footer>
-            
 
+       
+    <div>
+            <div class="footer-content">
+             
+
+            <div class="col footer-btn">
+
+                <h2>Ready to get involved?</h2>
+                <a href="#" >Subscribe</a>
+            </div>
+            <div class="col">
+
+                <ul>
+
+                  <a href="#">  <li class="head">About us </li></a>
+                  <a href="#">  <li>What we do </li></a>
+                    <a href="#">    <li>Our history </li></a>
+                        <a href="#">    <li>Contact us </li></a>
+                            <a href="#">   <li>Help </li></a>
+                </ul>
+
+            </div>
+            <div class="col">
+
+                <ul>
+
+                    <a href="#">   <li class="head">Get your facts </li></a>
+                    <a href="#">    <li>Causes</li></a>
+                    <a href="#">    <li>News </li></a>
+                    
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+
+                    <a href="#">     <li class="head">Challenges </li></a>
+                    <a href="#">     <li>Running</li></a>
+                    <a href="#">     <li>Fund a cause </li></a>
+                    <a href="#">     <li>Social Challenges</li></a>
+                    
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+
+                    <a href="#">    <li class="head">Ethical Living </li></a>
+                    <a href="#">     <li>Find Ethical Stores</li></a>
+                    <a href="#">   <li>Free Meals </li></a>
+                    <a href="#">    <li>Shop</li></a>
+                    
+                </ul>
+            </div>
+            </div>
+
+           
+
+
+    </div>
+
+       
+        
+            
+        <img src="images/footer.png">
       </footer>
   
     

@@ -6,8 +6,13 @@
 
     <!-- Homepage Style -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <!-- Ethnical Stores Style-->
     <link rel="stylesheet" href="css/style_ethnical_stores.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,24 +23,77 @@
 <body>
     <!-- Navigation Bar-->
         <!-- Primary nav bar -->
-        <div id="MenuMin" class="menuMin">
-            <ul>
-                <!-- Logo to take users back to the homepage -->
-                <div class="logoSML">
-                    <a href="index.html"><li><img src="images/ethical_stores/logo-small.svg"></li></a>
-                </div>
-                <!-- Text navs -->
-                <a href="index.html"><li>HOME</li></a>
-                <a href="causes.html".html><li>CAUSES</li></a>
-                <a href="#"><li>NEWS</li></a>
-                <a href="#"><li>CHALLENGES</li></a>
-                <a href="#"><li>ABOUT US</li></a>
-                <!-- Changing Button Colour-->
-                <a class="storesBtn" href="ethnical_stores.html"><li>ETHICAL STORES</li></a> 
-                <a href="#"><li><img src="images/search.png"></li></a>
-            </ul>
-        </div>
-    </nav>
+        <nav>
+
+          <div class="social">
+  
+              <div class="social-content">
+  
+                  <a href="#"><img src="images/facebook.png"></a>
+                  <a href="#"><img src="images/instagram.png"></a>
+                  <a href="#"><img src="images/twitter.png"></a>
+  
+              </div>
+  
+          </div>
+  
+      <div class="logo">
+  
+          
+          <a href="index.html"><img src="images/logo.png"></a>
+      </div>
+  
+      <div id="menu" class="menu">
+  
+          <div class="navbar">
+                  <a href="#home">HOME</a>
+                  <div class="dropdown">
+                  <button class="dropbtn">CAUSES
+                      <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                      <a href="#">Mental Health Causes</a>
+                      <a href="#">Social & Political Causes</a>
+                      <a href="#">Environmental Causes</a>
+                  </div>
+                  </div> 
+                  <a href="#home">NEWS</a>
+                  <div class="dropdown">
+                      <button class="dropbtn">CHALLENGES
+                          <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                          <a href="#">Runnig</a>
+                          <a href="#">Funding</a>
+                          <a href="#">Social Challenges</a>
+                      </div>
+                      </div> 
+                  <a href="#home">ABOUT US</a>
+                  <div class="dropdown yellow">
+                      <button class="dropbtn yellow "> <h4>ETHICAL STORES <i class="fa fa-caret-down"></i></h4>
+                          
+                      </button>
+                      <div class="dropdown-content">
+                          <a href="#">Food</a>
+                          <a href="#">Sustainable Home Living</a>
+                          <a href="#">Ethical Clothing brands</a>
+                          <a href="#">Cruelty-Free Makeup</a>
+                          <a href="#">Recycle</a>
+                      </div>
+                      </div> 
+                  <a href="#news"><img src="images/search.png"></a>
+          </div>       
+  
+      </div>
+  
+  
+    
+  
+  
+  
+  
+  
+      </nav>
 
     <!-- Main Hero Section -->
     <div class="heroSection">
@@ -105,5 +163,7 @@
     </section>
 
     </section>
+
+    <script src="js/menu.js"></script>
 </body>
 </html>

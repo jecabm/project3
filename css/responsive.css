@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1559px) {
+  .text-hero {
+    width: 53%;
+  }
+
+  .text-hero h1 {
+    font-size: 42px;
+  }
+
+  .slide-left {
+    height: 322px;
+  }
+
+  .slide-right {
+    height: 322px;
+  }
+
+  .dropdown .dropbtn {
+    padding: 19px 27px;
+  }
+
+  .causes {
+    width: 81%;
+  }
+
+  .cause-right {
+    margin-right: 51px;
+  }
+
+  .container {
+    width: 87%;
+  }
+
+  .container img {
+    width: 100%;
+  }
+
+  .challenges {
+    width: 72%;
+    margin-top: 280px;
+  }
+
+  .col li {
+    width: 233px;
+  }
+
+  .footer-content h2 {
+    text-align: left;
+  }
+}

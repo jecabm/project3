@@ -37,7 +37,7 @@
 
   .challenges {
     width: 72%;
-    margin-top: 280px;
+    margin-top: 44px;
   }
 
   .col li {
@@ -46,5 +46,10 @@
 
   .footer-content h2 {
     text-align: left;
+  }
+
+  .heroText {
+    padding-top: 59px;
+    padding-left: 129px;
   }
 }

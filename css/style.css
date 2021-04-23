@@ -19,30 +19,22 @@ nav {
 
 /*Dropdown menu start*/
 
-.yellow{
+.yellow {
   background-color: #ead200;
-  
+
   height: 58px;
-
-
 }
 
-.yellow a:hover{
+.yellow a:hover {
   background-color: #ead200;
-  
+
   height: 58px;
-
-
 }
 
-.yellow h4{
- 
-  color: #000000  !important;
+.yellow h4 {
+  color: #000000 !important;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
-  
-
-
 }
 .navbar {
   overflow: hidden;
@@ -69,7 +61,7 @@ nav {
 }
 
 .dropdown .dropbtn {
-  font-size: 13px;  
+  font-size: 13px;
   border: none;
   outline: none;
   color: white;
@@ -82,7 +74,8 @@ nav {
   text-align: center;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn .yellow {
+.navbar a:hover,
+.dropdown:hover .dropbtn .yellow {
   background-color: #424242;
   height: 58px;
 }
@@ -92,10 +85,8 @@ nav {
   position: absolute;
   background-color: #272727;
   min-width: 183px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
- 
-  
 }
 
 .dropdown-content a {
@@ -114,7 +105,6 @@ nav {
 .dropdown-content a:hover {
   background-color: #ead200;
   color: #000000;
-  
 }
 
 .dropdown:hover .dropdown-content {
@@ -500,6 +490,7 @@ nav {
   margin-top: 175px;
   grid-template-rows: 50% 50%;
   grid-template-columns: 42% 31% 27%;
+  margin-top: 341px;
 }
 
 .ethical > div {
@@ -659,7 +650,6 @@ nav {
   display: flex;
   padding-top: 23px;
   margin-right: 46px;
-  
 }
 
 .sub-right img {

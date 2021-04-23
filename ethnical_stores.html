@@ -6,15 +6,16 @@
 
     <!-- Homepage Style -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <!-- Ethnical Stores Style-->
     <link rel="stylesheet" href="css/style_ethnical_stores.css">
-    
-    <!-- Sticky Nav -->
+
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
     <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
 
     <title>Act Now! Ethical Stores</title>
@@ -22,25 +23,64 @@
 <body>
     <!-- Navigation Bar-->
     <nav>
+            
+        <!-- Social media nav bar -->
+         <div class="social"> 
+            <div class="social-content">
+                <a href="#"><img src="images/facebook.png"></a>
+                <a href="#"><img src="images/instagram.png"></a>
+                <a href="#"><img src="images/twitter.png"></a>
+            </div>
+        </div>
+        <!-- End social media nav bar -->
+            
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png"></a>
+        </div>
+            
         <!-- Primary nav bar -->
         <div id="menu" class="menu">
-            <ul>
-                <!-- Logo to take users back to the homepage -->
-                <div class="logoSML">
-                    <a href="index.html"><li><img src="images/ethical_stores/logo-small.svg"></li></a>
-                </div>
-                <!-- Text navs -->
-                <a href="index.html"><li>HOME</li></a>
-                <a href="causes.html".html><li>CAUSES</li></a>
-                <a href="#"><li>NEWS</li></a>
-                <a href="#"><li>CHALLENGES</li></a>
-                <a href="#"><li>ABOUT US</li></a>
-                <!-- Changing Button Colour-->
-                <a class="storesBtn" href="ethnical_stores.html"><li>ETHICAL STORES</li></a> 
-                <a href="#"><li><img src="images/search.png"></li></a>
-            </ul>
+            <div class="navbar">
+                <a href="index.html">HOME</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">CAUSES
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="causes.html">Mental Health Causes</a>
+                            <a href="causes.html">Social & Political Causes</a>
+                            <a href="causes.html">Environmental Causes</a>
+                        </div>
+                    </div> 
+                    <a href="#home">NEWS</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">CHALLENGES
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                    <div class="dropdown-content">
+                        <a href="#">Runnig</a>
+                        <a href="#">Funding</a>
+                        <a href="#">Social Challenges</a>
+                    </div>
+                </div> 
+                <a href="#home">ABOUT US</a>
+                <div class="dropdown yellow">
+                    <button class="dropbtn yellow ">
+                        <h4>ETHICAL STORES<i class="fa fa-caret-down"></i></h4>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#eating">Conscious Eating</a>
+                        <a href="ethnical_stores.html">Ethical Clothing brands</a>
+                        <a href="ethnical_stores.html">Cruelty-Free Makeup</a>
+                        <a href="ethnical_stores.html">Recycle</a>
+                    </div>
+                </div> 
+                <a href="#news"><img src="images/search.png"></a>
+            </div>    
         </div>
+        <!-- End primary media nav bar -->  
     </nav>
+    <!-- End navigation bar --> 
 
     <!-- Main Hero Section -->
     <div class="heroSection">
@@ -59,27 +99,27 @@
 
     <!-- Conscious Eating -->
     <!-- Cards -->
-    <div class="content">
+    <div  id="eating"class="content">
         <h2 class="sectionHeading">Conscious Eating</h2>
         <p class="introText">Narrowing the list of the best restaurants and consciously sourced food in Melbourne, Australia is tough! The city’s inhabitants love food so much that it was recently voted the third most vegan-friendly city in the world.</p>
         <div class="row consciousEating">
   
-        <!-- Card 1 -->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <!-- Card 1 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div class="card">
-                <img src="images/ethical_stores/ethnical-stores-01-card-1.png" class="cardTopImg" alt="Kinfolk">
-                <div class="cardLocation">Melbourne, Victoria</div>
-                <div class="cardBody">
-                    <h4 class="card-title">Kinfolk</h4>
-                    <p class="card-text">Not-for-profit social enterprise. Kinfolk believe in eating well, for good. We believe in eating well, for good. Kinfolk cafes create community & provide specialised training to individuals facing isolation and barriers to employment. Each week they deliver food relief to vulnerable Victorians.</p>
-                    <a href="https://www.kinfolk.org.au/" class="visitWebsite">Visit Website</a>
-                </div>
+              <img src="images/ethical_stores/ethnical-stores-01-card-1.png" class="cardTopImg" alt="Kinfolk">
+              <div class="cardLocation">Melbourne, Victoria</div>
+              <div class="cardBody">
+                <h4 class="card-title">Kinfolk</h4>
+                <p class="card-text">Not-for-profit social enterprise. Kinfolk believe in eating well, for good. We believe in eating well, for good. Kinfolk cafes create community & provide specialised training to individuals facing isolation and barriers to employment. Each week they deliver food relief to vulnerable Victorians.</p>
+                <a href="https://www.kinfolk.org.au/" class="visitWebsite">Visit Website</a>
+              </div>
             </div>
-        </div>
-        <!-- End card 1 -->
+          </div>
+          <!-- End card 1 -->
   
-        <!-- Card 2 -->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <!-- Card 2 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div class="card">
               <img src="images/ethical_stores/ethnical-stores-01-card-2.png" class="cardTopImg" alt="Kinfolk">
               <div class="cardLocation">www.ceresfairfood.org.aua</div>
@@ -89,31 +129,73 @@
                 <a href="https://www.ceresfairfood.org.au/" class="visitWebsite">Visit Website</a>
               </div>
             </div>
-        </div>
-        <!-- End card 2 -->
+          </div>
+          <!-- End card 2 -->
   
-        <!-- Card 3 -->
-        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <!-- Card 3 -->
+          <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div class="card">
               <img src="images/ethical_stores/ethnical-stores-01-card-2.png" class="cardTopImg" alt="Kinfolk">
               <div class="cardLocation">www.grownandgathered.com.au</div>
               <div class="cardBody">
                 <h4>Grown and Gathered</h4>
-                <p>Principles of local, real produce and sustainable farming and packaging. The Produce Van, selling homegrown vegetables and Minimum Wines,  organic, regenerative management and vineyard  made to nurture both the environment, and the drinker!</p>
-                <a href="https://www.grownandgathered.com.au/" class="visitWebsite">Visit Website</a>
+                <p>To do good at every step along the food supply chain. Supporting Victorian farmers, grocery makers & suppliers and stick with them through the seasons. Employ people seeking asylum and new migrants. Use returnable boxes, home compostable bags and pack produce with minimal waste.</p>
+                <a href="https://www.ceresfairfood.org.au/" class="visitWebsite">Visit Website</a>
               </div>
             </div>
-          <!-- End card 3 -->
-        </div>
+          </div>
+      </div>
     </div>
     <!-- End cards -->
 
-      <footer>
+    <!-- Fat Footer -->
+    <footer>
+        <div>
+            <div class="footer-content">
+                <div class="col footer-btn">
+                    <h2>Ready to get involved?</h2>
+                    <a href="#" >Subscribe</a>
+                </div>
+                <div class="col">
+                    <ul>
+                        <a href="#"><li class="head">About us</li></a>
+                        <a href="#"><li>What we do</li></a>
+                        <a href="#"><li>Our history</li></a>
+                        <a href="#"><li>Contact us</li></a>
+                        <a href="#"><li>Help</li></a>
+                    </ul>
+                </div>
+                <div class="col">
+                     <ul>
+                        <a href="#"><li class="head">Get your facts </li></a>
+                        <a href="causes.html"><li>Causes</li></a>
+                        <a href="#"><li>News </li></a>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <a href="#"><li class="head">Challenges</li></a>
+                        <a href="#"><li>Running</li></a>
+                        <a href="#"><li>Fund a cause</li></a>
+                        <a href="#"><li>Social Challenges</li></a>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <a href="#"><li class="head">Ethical Living </li></a>
+                        <a href="ethnical_stores.html"><li>Find Ethical Stores</li></a>
+                        <a href="#"><li>Free Meals </li></a>
+                        <a href="#"><li>Shop</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <img src="images/footer.png">
+        </footer>
+        <!-- End fat footer -->
 
-    </footer>
+    <!-- Calling on sticky javaScript -->
+    <script src="js/menu.js"></script>
 
-  
-    <!-- javaScript for sticky nav -->
-   <script src="js/menu.js"></script>
-</body>
+    </body>
 </html>
